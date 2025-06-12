@@ -711,6 +711,10 @@ button {
   fill: #4d5ae5;
 }
 
+.textarea-form-wrapper {
+  margin-bottom: 16px;
+}
+
 .input-textarea {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -735,7 +739,7 @@ button {
 }
 
 .checkbox-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .modal-checkbox {
