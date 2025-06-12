@@ -479,12 +479,12 @@
         </div>
         <div class="subscribe-form">
           <p class="subscribe-text footer-subtitle">Subscribe</p>
-          <div class="footer-form-wrapper">
+          <form class="footer-modal-form">
             <label class="footer-input-label">
               <input
                 type="email"
                 class="footer-input"
-                name="user-email"
+                name="footer-user-email"
                 placeholder="E-mail"
               />
             </label>
@@ -494,7 +494,7 @@
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -508,7 +508,9 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="modal-form-wrapper">
-            <label for="user-name" class="modal-label .modal-text">Name</label>
+            <label for="user-name" class="modal-input-label .modal-text"
+              >Name</label
+            >
             <div class="input-wrapper">
               <input
                 type="text"
@@ -522,7 +524,7 @@
             </div>
           </div>
           <div class="modal-form-wrapper">
-            <label for="user-phone" class="modal-label .modal-text"
+            <label for="user-phone" class="modal-input-label .modal-text"
               >Phone</label
             >
             <div class="input-wrapper">
@@ -538,7 +540,7 @@
             </div>
           </div>
           <div class="modal-form-wrapper">
-            <label for="user-email" class="modal-label .modal-text"
+            <label for="user-email" class="modal-input-label .modal-text"
               >Email</label
             >
             <div class="input-wrapper">
@@ -554,7 +556,7 @@
             </div>
           </div>
           <div class="modal-form-wrapper">
-            <label for="user-comment" class="modal-label .modal-text"
+            <label for="user-comment" class="modal-input-label .modal-text"
               >Comment</label
             ><textarea
               class="input-textarea modal-text"
@@ -567,11 +569,11 @@
             <input
               type="checkbox"
               class="modal-checkbox visually-hidden"
-              name="policy"
-              id="policy"
+              name="user-privacy"
+              id="user-privacy"
               value="true"
             />
-            <label class="chekbox-label modal-text" for="policy"
+            <label class="chekbox-label modal-text" for="user-privacy"
               ><span class="check-custom"
                 ><svg class="icon-check" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use></svg></span
